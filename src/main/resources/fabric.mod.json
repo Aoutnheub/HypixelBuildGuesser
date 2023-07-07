@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "hbg",
+	"version": "${version}",
+	"name": "Hypixel Build Guesser",
+	"description": "It's not cheating",
+	"authors": [
+		"Aoutnheub"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/hbg/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.aoutnheub.Mod"
+		],
+		"client": [
+			"dev.aoutnheub.ModClient"
+		]
+	},
+	"mixins": [
+		"hbg.mixins.json",
+		{
+			"config": "hbg.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
