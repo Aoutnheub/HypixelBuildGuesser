@@ -4,11 +4,14 @@ Helps you guess the theme by searching for words matching the hint given at the 
 
 ## How?
 
+1. Put `hbg_themes.json` in the config folder
+2. Press <kbd>G</kbd> to open the GUI
+
 ![Guide](scr.png)
 
 ## Where?
 
-Mod jar and theme list can be found in [Releases]().
+Mod jar and theme list can be found in [Releases](https://github.com/Aoutnheub/HypixelBuildGuesser/releases/tag/v1.0).
 
 ## Who?
 
